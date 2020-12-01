@@ -162,7 +162,7 @@ public class <%= asDto(entityClass) %> implements Serializable {
         return <%= fieldName %>;
     }
 
-    public String has<%= fieldInJavaBeanMethod %>() {
+    public boolean has<%= fieldInJavaBeanMethod %>() {
         return _<%= fieldName %>;
     }
 
